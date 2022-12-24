@@ -16,6 +16,10 @@ require("./db/conn");
 app.use(cors());
 app.use(express.json());
 //app.use('/routes/router.js',router);
+
+app.get("/",(req,res)=>{
+    res.json("server start");
+})
 app.use("/router", router);
 app.use("/userscheme",users);
 
