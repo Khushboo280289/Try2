@@ -9,7 +9,7 @@ import Register from './component/register';
 import Edit from './component/Edit';
 import Details from './component/Details';
 import PersonList  from './component/PersonList';
-import Home2 from './component/Home2';
+//import Home2 from './component/Home2';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Component } from 'react';
 //import {Switch,Route} from "react-router-dom"
@@ -42,7 +42,7 @@ class App extends Component{
      <Navbaar />
            
        <Routes>
-        <Route exact path="/" element={<Home2 />} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/view/:id" element={<Details />} />
         <Route exact path="/edit/:id" element={<Edit />} />
         <Route exact path="/register" element={<Register />} />
