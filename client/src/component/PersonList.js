@@ -8,7 +8,7 @@ export default class PersonList extends React.Component{
     };
 
     componentDidMount(){
-        axios.get('https://firstcrudapp.netlify.app/router/getdata')
+        axios.get('http://127.0.0.1:8003/router/getdata')
         .then( res=>{
             console.log(res.data);
         this.setState({persons: res.data});

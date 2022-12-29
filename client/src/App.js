@@ -8,7 +8,7 @@ import Home from './component/Home';
 import Register from './component/register';
 import Edit from './component/Edit';
 import Details from './component/Details';
-import PersonList  from './component/PersonList';
+//import PersonList  from './component/PersonList';
 //import Home2 from './component/Home2';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Component } from 'react';
