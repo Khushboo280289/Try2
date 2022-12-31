@@ -4,6 +4,7 @@
   "main": "src/App.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
     "start": "react-scripts start",
     "server": "npm start --prefix server",
     "client": "npm start --prefix client",
@@ -19,7 +20,7 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.2",
     "npm-git-install": "^0.3.0",
-    "react-scripts": "^4.0.3"
+    "react-scripts": "^5.0.1"
   },
   "browserslist": {
     "production": [
